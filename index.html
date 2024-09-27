@@ -1,0 +1,352 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vaishnavi's Portfolio</title>
+    <link rel="stylesheet" href="./index.css"/>
+
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Playwrite+AU+VIC:wght@100..400&family=Victor+Mono:ital,wght@0,100..700;1,100..700&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+
+
+    <link href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@400;700&family=Inter:wght@400;700&display=swap" rel="stylesheet">
+
+    <!-- ICONS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+    <script src="https://cdn.emailjs.com/dist/email.min.js"></script>
+</head>
+<body>
+    <div class="content" id="content">
+    <div id="hero-section" class="hero-section">
+        <!-- <div class="intro" style="flex:2"> -->
+            <!-- <img src="./assets/home-banner-background.png" class="banner-bg-image"/> -->
+            <!-- <img src="./assets/home-banner-background-2.png" class="banner-bg-image-2"/> -->
+
+            <div style="display: flex;justify-content: space-between;padding: 10px 80px;">
+                <div class="name-section">
+                   <h3>Vaishnavi Rawool</h3>
+                </div>
+   
+                <div class="navbar">
+                    <ul>
+                       <li><a href="#">Home</a></li>
+                       <li><a href="#projects-container">Projects</a></li>
+                       <li><a href="#contact">Contact</a></li>
+                   </ul>
+                </div>
+            </div>
+
+        <div class="intro">
+            <!-- <h3 style="margin-bottom: 10px;color: #555;">Hi folks,</h3> -->
+            <h2 style="margin-bottom: 20px;" class="title-text">Hey, I'm Vaishnavi</h2>
+            <h1 class="intro-text">
+                I enjoy
+                 <span style="color: #1b0b3e;">building</span>
+                  and
+                  <span style="color: #1b0b3e;"> designing </span>
+                  for the web.
+            </h1>
+
+            <!-- <div style="display: flex;align-items: center;justify-content: center;"> -->
+                <button class="more-btn">Tell me more</button>
+                <button class="more-btn">Download CV <i class="fa-solid fa-download" style="font-size: 15px;"></i></button>
+            <!-- </div> -->
+        </div>
+
+    </div>
+<!-- todo:remove -->
+    <!-- <img src="./assets/wave (4).png" alt="bg"/> --> 
+
+    <!-- <div class="parallax"></div> -->
+
+    <div style="display: flex;align-items: center;justify-content: space-between;margin-left:80px;margin-right: 80px;margin-top: 50px;">
+        <h1 style="color: #1b0b3e;">Here are some of my favourite <span style="color: #c21f56;">projects</span> </h1>
+        <hr style="width: 600px;height: 5px;background: #c21f56;border: none;margin: 0;"/>
+    </div>
+    <div id="projects-container" class="projects-container">
+        <div class="projects">
+
+            <div class="card ">
+                <img src="./assets/bg.jpeg" alt="project-img" class="project-img"/>
+                <h3 style="margin: 0px;margin-top: 10px;margin-bottom: 5px;">Blog App</h3>
+                <p style="font-size: 15px;margin: 0px;color: rgb(123 137 168 );">Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni, maxime. Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi ratione nobis expedita, distinctio alias incidunt magni aspernatur.</p>
+
+                <div class="chip-container">
+                    <div class="chip">React</div>
+                    <div class="chip">HTML</div>
+                    <div class="chip">CSS</div>
+                    <div class="chip">JavaScript</div>
+                </div>
+            </div>
+
+            <div class="card ">
+                <img src="./assets/bg.jpeg" alt="project-img" class="project-img"/>
+                <h3 style="margin: 0px;margin-top: 10px;margin-bottom: 5px;">Realtime Code Editor</h3>
+                <p style="font-size: 15px;margin: 0px;color: rgb(123 137 168 );">Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni, maxime. Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi ratione nobis expedita, distinctio alias incidunt magni aspernatur.</p>
+
+                <div class="chip-container">
+                    <div class="chip">React</div>
+                    <div class="chip">HTML</div>
+                    <div class="chip">CSS</div>
+                    <div class="chip">JavaScript</div>
+                </div>
+            </div>
+
+            <div class="card ">
+                <img src="./assets/bg.jpeg" alt="project-img" class="project-img"/>
+                <h3 style="margin: 0px;margin-top: 10px;margin-bottom: 5px;">React Travel App UI</h3>
+                <p style="font-size: 15px;margin: 0px;color: rgb(123 137 168 );">Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni, maxime. Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi ratione nobis expedita, distinctio alias incidunt magni aspernatur.</p>
+
+                <div class="chip-container">
+                    <div class="chip">React</div>
+                    <div class="chip">HTML</div>
+                    <div class="chip">CSS</div>
+                    <div class="chip">JavaScript</div>
+                </div>
+            </div>
+
+            <div class="card  hidden">
+                <img src="./assets/bg.jpeg" alt="project-img" class="project-img"/>
+                <h3 style="margin: 0px;margin-top: 10px;margin-bottom: 5px;">Flask Todo App</h3>
+                <p style="font-size: 15px;margin: 0px;color: rgb(123 137 168 );">Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni, maxime. Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi ratione nobis expedita, distinctio alias incidunt magni aspernatur.</p>
+
+                <div class="chip-container">
+                    <div class="chip">React</div>
+                    <div class="chip">HTML</div>
+                    <div class="chip">CSS</div>
+                    <div class="chip">JavaScript</div>
+                </div>
+            </div>
+
+            <div class="card  hidden">
+                <img src="./assets/bg.jpeg" alt="project-img" class="project-img"/>
+                <h3 style="margin: 0px;margin-top: 10px;margin-bottom: 5px;">Django Todo App</h3>
+                <p style="font-size: 15px;margin: 0px;color: rgb(123 137 168 );">Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni, maxime. Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi ratione nobis expedita, distinctio alias incidunt magni aspernatur.</p>
+
+                <div class="chip-container">
+                    <div class="chip">React</div>
+                    <div class="chip">HTML</div>
+                    <div class="chip">CSS</div>
+                    <div class="chip">JavaScript</div>
+                </div>
+            </div>
+            
+            <div class="card  hidden">
+                <img src="./assets/bg.jpeg" alt="project-img" class="project-img"/>
+                <h3 style="margin: 0px;margin-top: 10px;margin-bottom: 5px;">Natural Language Processing (Spacy)</h3>
+                <p style="font-size: 15px;margin: 0px;color: rgb(123 137 168 );">Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni, maxime. Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi ratione nobis expedita, distinctio alias incidunt magni aspernatur.</p>
+
+                <div class="chip-container">
+                    <div class="chip">React</div>
+                    <div class="chip">HTML</div>
+                    <div class="chip">CSS</div>
+                    <div class="chip">JavaScript</div>
+                </div>
+            </div>
+
+           
+
+        </div>
+    </div>
+
+    <button id="view-all-btn" class="view-all-btn">View All</button>
+
+<!-- ICONS SITE -> https://icons8.com/icons/set/css -->
+    <!-- /* font-family: 'Pacifico', cursive;font-weight: 400;text-align: left;width: 500px; */ -->
+    <div class="skill-set-container">
+        <div style="flex:1;margin-left: 80px;color: #1b0b3e;">
+            <h1 style="font-family: Pacifico;">
+                Unveiling My Skillset: 
+            </h1>
+            <h1 style="font-family: Pacifico;">
+                Here’s What I Bring to the Table....
+            </h1>
+        <!-- <h1 
+            data-text="Unveiling My Skillset: Here’s What I" 
+            data-text-2="Bring to the Table!" 
+            class="skills-intro">
+            Unveiling My Skillset: Here’s What I Bring to the Table!
+        </h1> -->
+
+        </div>
+        <div class="skill-set">
+            <div class="toolset">
+                <div class="skill">
+                    <img src="./assets/icons/icons8-html-48.png" alt="html" />
+                     
+                    <p>HTML</p>
+                </div>
+                <div class="skill">
+                    <img src="./assets/icons/icons8-css-48.png" alt="html" />
+                    <p>CSS</p>
+                </div>
+                <div class="skill">
+                    <img src="./assets/icons/icons8-js-48.png" alt="html" />
+                    <p>JavaScript</p>
+                </div>
+                <div class="skill">
+                    <img src="./assets/icons/icons8-typescript-48.png" alt="html" />
+                    <p>TypeScript</p>
+                </div>
+                <div class="skill">
+                    <img src="./assets/icons/icons8-react-native-48.png" alt="html" />
+                    <p>React</p>
+                </div>
+                <div class="skill">
+                    <img src="./assets/icons/icons8-angular-48.png" alt="html" />
+                    <p>Angular</p>
+                </div>
+
+                <div class="skill">
+                    <img src="https://simpleicons.org/icons/mui.svg" alt="React Logo" class="skill-logo">
+                    <p>Material UI</p>
+                </div>
+
+                <div class="skill">
+                    <img src="./assets/icons/icons8-bootstrap-48.png" alt="html" />
+                    <p>Bootstrap</p>
+                </div>
+
+                <div class="skill">
+                    <img src="./assets/icons/icons8-nodejs-48.png" alt="html" />
+                    <p>Node.js</p>
+                </div>
+                <div class="skill">
+                    <img src="./assets/icons/icons8-python-48.png" alt="html" />
+                    <p>Python</p>
+                </div>
+                <div class="skill">
+                    <img src="./assets/icons/icons8-postgresql-100.png" alt="html" height="48px"/>
+                    <p>SQL/NoSQL</p>
+                </div>
+                <div class="skill">
+                    <img src="./assets/icons/icons8-git-48.png" alt="html" />
+                    <p>Git</p>
+                </div>
+                <div class="skill">
+                    <img src="./assets/icons/icons8-aws-48.png" alt="html" />
+                    <p>AWS</p>
+                </div>
+                <div class="skill">
+                    <img src="./assets/icons/icons8-docker-48.png" alt="html" />
+                    <p>Docker</p>
+                </div>
+              
+            </div>
+            
+        </div>
+    </div>
+
+    <div id="contact" style="display: flex;flex-direction: column;align-items: center;justify-content: center;height: 400px;width: 100%;color: white;background: url('./assets/stacked-waves-haikei.png');background-repeat: no-repeat;background-size: cover;">
+        <h1 style="margin: 0px;">Interested in Working Together?</h1>
+        <button id="get-in-touch-btn" class="more-btn" style="margin-top: 15px;">Get in Touch</button>
+    </div>
+
+        <div class="contact-form modal" id="myModal">
+            <div style="display: flex;justify-content: space-between;align-items: center;">
+                <h2 style="text-align: center;">Contact Us</h2>
+                <span class="close" id="closeDialog">&times;</span>
+            </div>
+            <form id="contact-form" action="#" method="post">
+                <div class="form-group">
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="message">Message:</label>
+                    <textarea id="message" name="message" rows="4" required></textarea>
+                </div>
+                <button id="send-msg-btn" type="submit" class="more-btn" style="display: block;margin:auto">Send Message</button>
+            </form>
+        </div>
+   
+
+
+
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-section pages">
+                <h4 style="color: rgb(123 137 168 );">PAGES</h4>
+                <ul>
+                    <li><a href="#hero-section">Home</a></li>
+                    <li><a href="#projects-container">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+            <div class="footer-section social">
+                <h4 style="color: rgb(123 137 168 );">SOCIAL</h4>
+                <ul>
+                    <li><a href="https://facebook.com" target="_blank">Github</a></li>
+                    <li><a href="https://linkedin.com" target="_blank">LinkedIn</a></li>
+                    <li><a href="https://twitter.com" target="_blank">Dev Community</a></li>
+                    <li><a href="mailto:vaishnavir2201@gmail.com" target="_blank">Email</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="line"></div>
+        <div class="footer-bottom">
+            <div class="made-with">
+                <p style="font-weight: bold;">Made with </p>
+                <i class="fab fa-html5"></i>
+                <i class="fab fa-css3-alt"></i>
+                <i class="fab fa-js"></i>
+            </div>
+        </div>
+    </footer>
+
+    </div>
+
+    <script src="app.js"></script>
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script>
+        // ScrollReveal({ reset: true });
+        // ScrollReveal().reveal('.projects-container', { delay: 500, distance:'50px', 'easing':'cubic-bezier(.71,-0.01,.75,.81)',origin:'top' });
+    </script>
+        <!-- <div style="display: flex;justify-content: center;">
+            <ul style="list-style-type: none;">
+                <li class="list-btn">
+                    <span style="text-align: center;">JavaScript</span>
+                </li>
+                <li class="list-btn">
+                    <span style="text-align: center;">TypeScript</span>
+                </li>
+                <li class="list-btn">
+                    <span style="text-align: center;">HTML | CSS</span>
+                </li>
+                <li class="list-btn">
+                    <span style="text-align: center;">React</span>
+                </li>
+                <li class="list-btn">
+                    <span style="text-align: center;">Angular</span>
+                </li>
+               
+                <li class="list-btn">
+                    <span style="text-align: center;">SQL</span>
+                </li>
+                <li class="list-btn">
+                    <span style="text-align: center;">NoSQL</span>
+                </li>
+                <li class="list-btn">
+                    <span style="text-align: center;">AWS</span>
+                </li>
+            </ul>
+        </div> -->
+</body>
+</html>
