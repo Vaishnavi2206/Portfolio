@@ -3,6 +3,7 @@ html {
 }
 
 body {
+  overflow-x: hidden;
     font-weight: 400;
     font-style: normal;
     margin: 0;
@@ -46,6 +47,44 @@ body {
   display: block;
 }
 
+.navbar .toggle-button {
+  font-size: 24px;
+  color: white;
+  cursor: pointer;
+}
+
+.drawer {
+  position: fixed;
+  top: 0;
+  left: -300px; /* Hidden off-screen */
+  width: 200px;
+  height: 100%;
+  background-color: #1b0b3e87;
+  color: white;
+  transition: left 0.3s ease;
+  padding: 20px;
+  box-shadow: 2px 0 5px rgba(0, 0, 0, 0.5);
+}
+
+.drawer ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.drawer li {
+  margin: 20px 0;
+}
+
+.drawer a {
+  color: white;
+  text-decoration: none;
+}
+
+/* Show drawer when active */
+.drawer.active {
+  left: 0; /* Move into view */
+}
+
 
 .banner-bg-image{
   position: absolute;
@@ -82,7 +121,6 @@ body {
     font-weight:bolder;
     margin: auto;
     width: 820px;
-
 }
 
 .more-btn{
@@ -162,6 +200,15 @@ body {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+  }
+
+  .projects-title{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left:80px;
+    margin-right: 80px;
+    margin-top: 50px;
   }
 
   .projects-container{
@@ -609,4 +656,59 @@ textarea {
 .close:focus {
   color: black;
   cursor: pointer;
+}
+
+/* MOBILE SCREEN */
+
+@media (max-width: 768px) {
+  body{
+    overflow-x:hidden;
+  }
+
+  .hero-section{
+    overflow-x: hidden;
+  }
+
+  .navbar ul {
+    flex-direction: column; 
+  }
+
+  .intro-text {
+    font-size: 8vw;
+    word-spacing: 2px;
+    max-width: 90%;
+    margin: auto;
+  }
+
+  .title-text{
+    font-size: 20px;
+  }
+
+  .hero-section {
+    height: 420px;
+  }
+
+  .projects-title {
+    flex-direction: column; /* Stack elements vertically on smaller screens */
+    align-items: center; /* Center the content */
+    margin-left: 20px; /* Adjust left margin */
+    margin-right: 20px; /* Adjust right margin */
+}
+
+h1.project-text {
+    text-align: center; /* Center the text */
+    font-size: 24px; /* Adjust font size for mobile */
+}
+
+hr {
+    width: calc(100% - 40px);
+    margin: 10px 20 20px;
+}
+}
+
+
+@media (min-width: 769px) {
+  .drawer {
+      display: none; /* Hide drawer on larger screens */
+  }
 }

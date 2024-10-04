@@ -28,7 +28,6 @@
     <script src="https://cdn.emailjs.com/dist/email.min.js"></script>
 </head>
 <body>
-    <div class="content" id="content">
     <div id="hero-section" class="hero-section">
         <!-- <div class="intro" style="flex:2"> -->
             <!-- <img src="./assets/home-banner-background.png" class="banner-bg-image"/> -->
@@ -40,11 +39,16 @@
                 </div>
    
                 <div class="navbar">
-                    <ul>
-                       <li><a href="#">Home</a></li>
-                       <li><a href="#projects-container">Projects</a></li>
-                       <li><a href="#contact">Contact</a></li>
-                   </ul>
+                    <div class="toggle-button" id="toggle-button">
+                        ☰
+                    </div>
+                    <div class="drawer" id="drawer">
+                        <ul>
+                           <li><a href="#">Home</a></li>
+                           <li><a href="#projects-container">Projects</a></li>
+                           <li><a href="#contact">Contact</a></li>
+                       </ul>
+                    </div>
                 </div>
             </div>
 
@@ -71,9 +75,9 @@
 
     <!-- <div class="parallax"></div> -->
 
-    <div style="display: flex;align-items: center;justify-content: space-between;margin-left:80px;margin-right: 80px;margin-top: 50px;">
-        <h1 style="color: #1b0b3e;">Here are some of my favourite <span style="color: #c21f56;">projects</span> </h1>
-        <hr style="width: 600px;height: 5px;background: #c21f56;border: none;margin: 0;"/>
+    <div style="" class="projects-title">
+        <h1 class="project-text" style="color: #1b0b3e;">Here are some of my favourite <span style="color: #c21f56;">projects</span> </h1>
+        <hr style="width: 600px;height: 5px;background: #c21f56;border: none;"/>
     </div>
     <div id="projects-container" class="projects-container">
         <div class="projects">
@@ -311,7 +315,6 @@
         </div>
     </footer>
 
-    </div>
 
     <script src="app.js"></script>
     <script src="https://unpkg.com/scrollreveal"></script>

@@ -1,3 +1,11 @@
+const toggleButton = document.getElementById('toggle-button');
+const drawer = document.getElementById('drawer');
+
+toggleButton.addEventListener('click', () => {
+    drawer.classList.toggle('active');
+});
+
+
 // send email
 // Initialize EmailJS
 (function() {
