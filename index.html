@@ -33,28 +33,35 @@
             <!-- <img src="./assets/home-banner-background.png" class="banner-bg-image"/> -->
             <!-- <img src="./assets/home-banner-background-2.png" class="banner-bg-image-2"/> -->
 
-            <div style="display: flex;justify-content: space-between;padding: 10px 80px;">
+            <div class="nav-top">
                 <div class="name-section">
                    <h3>Vaishnavi Rawool</h3>
                 </div>
    
                 <div class="navbar">
-                    <div class="toggle-button" id="toggle-button">
-                        ☰
-                    </div>
-                    <div class="drawer" id="drawer">
-                        <ul>
+                    <ul>
                            <li><a href="#">Home</a></li>
                            <li><a href="#projects-container">Projects</a></li>
                            <li><a href="#contact">Contact</a></li>
-                       </ul>
+                    </ul>
+                    <div>
+                        <div class="toggle-button" id="toggle-button">
+                            ☰
+                        </div>
+                        <div class="drawer" id="drawer">
+                            <ul>
+                               <li><a href="#">Home</a></li>
+                               <li><a href="#projects-container">Projects</a></li>
+                               <li><a href="#contact">Contact</a></li>
+                           </ul>
+                        </div>
                     </div>
                 </div>
             </div>
 
         <div class="intro">
             <!-- <h3 style="margin-bottom: 10px;color: #555;">Hi folks,</h3> -->
-            <h2 style="margin-bottom: 20px;" class="title-text">Hey, I'm Vaishnavi</h2>
+            <h2 class="title-text">Hey, I'm Vaishnavi</h2>
             <h1 class="intro-text">
                 I enjoy
                  <span style="color: #1b0b3e;">building</span>
@@ -81,7 +88,7 @@
 
     <div style="" class="projects-title">
         <h1 class="project-text" style="color: #1b0b3e;">Here are some of my favourite <span style="color: #c21f56;">projects</span> </h1>
-        <hr style="width: 600px;height: 5px;background: #c21f56;border: none;"/>
+        <hr class="divider"/>
     </div>
     <div id="projects-container" class="projects-container">
         <div class="projects">
@@ -114,7 +121,7 @@
 
             <div class="card ">
                 <img src="./assets/bg.jpeg" alt="project-img" class="project-img"/>
-                <h3 style="margin: 0px;margin-top: 10px;margin-bottom: 5px;">React Travel App UI</h3>
+                <h3 style="margin: 0px;margin-top: 10px;margin-bottom: 5px;">React Travel App</h3>
                 <p style="font-size: 12px;margin: 0px;color: rgb(123 137 168 );">Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni, maxime. Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi ratione nobis expedita, distinctio alias incidunt magni aspernatur.</p>
 
                 <div class="chip-container">
@@ -174,7 +181,7 @@
 <!-- ICONS SITE -> https://icons8.com/icons/set/css -->
     <!-- /* font-family: 'Pacifico', cursive;font-weight: 400;text-align: left;width: 500px; */ -->
     <div class="skill-set-container">
-        <div style="flex:1;margin-left: 80px;color: #1b0b3e;">
+        <div class="skillset-title">
             <h1 style="font-family: Pacifico;">
                 Unveiling My Skillset: 
             </h1>
@@ -258,7 +265,7 @@
     </div>
 
     <div id="contact" style="display: flex;flex-direction: column;align-items: center;justify-content: center;height: 400px;width: 100%;color: white;background: url('./assets/stacked-waves-haikei.png');background-repeat: no-repeat;background-size: cover;">
-        <h1 style="margin: 0px;">Interested in Working Together?</h1>
+        <h1 style="margin: 0px;text-align:center">Interested in Working Together?</h1>
         <button id="get-in-touch-btn" class="more-btn" style="margin-top: 15px;">Get in Touch</button>
     </div>
 
