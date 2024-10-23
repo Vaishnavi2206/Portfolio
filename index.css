@@ -788,6 +788,10 @@ hr {
 
 }
 
+.full-screen-navigations{
+  display: none !important;
+}
+
 }
 
 
